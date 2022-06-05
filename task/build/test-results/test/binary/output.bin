@@ -1,0 +1,85 @@
+[1;31m
+Start test 1[0m
+
+(  .   ____          _            __ _ _
+) /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+*( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
++ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+*  '  |____| .__|_| |_|_| |_\__, | / / / /
+) =========|_|==============|___/=/_/_/_/
++ :: Spring Boot ::                (v2.5.6)
+
+Ö2022-06-05 14:16:23.398  INFO 3646 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.3 on pr-d1.kzn.21-school.ru with PID 3646 (started by tmiranda in /Users/tmiranda/IdeaProjects/Recipes/Recipes/task)
+•2022-06-05 14:16:23.401  INFO 3646 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+†2022-06-05 14:16:24.486  INFO 3646 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+∫2022-06-05 14:16:24.545  INFO 3646 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+ë2022-06-05 14:16:25.167  INFO 3646 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+~2022-06-05 14:16:25.183  INFO 3646 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+î2022-06-05 14:16:25.183  INFO 3646 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+ó2022-06-05 14:16:25.267  INFO 3646 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+§2022-06-05 14:16:25.267  INFO 3646 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1812 ms
+û2022-06-05 14:16:25.562  INFO 3646 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+ó2022-06-05 14:16:25.661  INFO 3646 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+ù2022-06-05 14:16:25.902  INFO 3646 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-05 14:16:26.050  INFO 3646 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+Ñ2022-06-05 14:16:26.314  INFO 3646 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+û2022-06-05 14:16:26.365  INFO 3646 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+ÿ2022-06-05 14:16:27.144  INFO 3646 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+®2022-06-05 14:16:27.154  INFO 3646 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ú2022-06-05 14:16:27.438  WARN 3646 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ö2022-06-05 14:16:27.858  INFO 3646 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+†2022-06-05 14:16:27.890  INFO 3646 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path ''
+®2022-06-05 14:16:27.900  INFO 3646 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 4.945 seconds (JVM running for 5.625)
+û2022-06-05 14:16:28.501  INFO 3646 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ç2022-06-05 14:16:28.501  INFO 3646 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ö2022-06-05 14:16:28.503  INFO 3646 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[1;31m
+Start test 2[0m
+[1;31m
+Start test 3[0m
+[1;31m
+Start test 4[0m
+[1;31m
+Start test 5[0m
+§2022-06-05 14:16:29.273  INFO 3646 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+â2022-06-05 14:16:29.275  INFO 3646 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+á2022-06-05 14:16:29.325  INFO 3646 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+(  .   ____          _            __ _ _
+) /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+*( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
++ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+*  '  |____| .__|_| |_|_| |_\__, | / / / /
+) =========|_|==============|___/=/_/_/_/
++ :: Spring Boot ::                (v2.5.6)
+
+Ö2022-06-05 14:16:29.390  INFO 3646 --- [    Test worker] recipes.RecipesApplication               : Starting RecipesApplication using Java 17.0.3 on pr-d1.kzn.21-school.ru with PID 3646 (started by tmiranda in /Users/tmiranda/IdeaProjects/Recipes/Recipes/task)
+•2022-06-05 14:16:29.391  INFO 3646 --- [    Test worker] recipes.RecipesApplication               : No active profile set, falling back to default profiles: default
+†2022-06-05 14:16:29.564  INFO 3646 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+π2022-06-05 14:16:29.567  INFO 3646 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+ë2022-06-05 14:16:29.629  INFO 3646 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8881 (http)
+~2022-06-05 14:16:29.630  INFO 3646 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+î2022-06-05 14:16:29.630  INFO 3646 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+ó2022-06-05 14:16:29.641  INFO 3646 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+£2022-06-05 14:16:29.641  INFO 3646 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 249 ms
+û2022-06-05 14:16:29.687  INFO 3646 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-05 14:16:29.690  INFO 3646 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+Ñ2022-06-05 14:16:29.695  INFO 3646 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+û2022-06-05 14:16:29.696  INFO 3646 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+ÿ2022-06-05 14:16:29.733  INFO 3646 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+®2022-06-05 14:16:29.734  INFO 3646 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ú2022-06-05 14:16:29.775  WARN 3646 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ö2022-06-05 14:16:29.896  INFO 3646 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+†2022-06-05 14:16:29.910  INFO 3646 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8881 (http) with context path ''
+ß2022-06-05 14:16:29.915  INFO 3646 --- [    Test worker] recipes.RecipesApplication               : Started RecipesApplication in 0.543 seconds (JVM running for 7.64)
+[1;31m
+Start test 6[0m
+û2022-06-05 14:16:29.924  INFO 3646 --- [nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ç2022-06-05 14:16:29.924  INFO 3646 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ö2022-06-05 14:16:29.925  INFO 3646 --- [nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+[1;31m
+Start test 7[0m
+[1;31m
+Start test 8[0m
+[1;31m
+Start test 9[0m
