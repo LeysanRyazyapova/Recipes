@@ -3,6 +3,7 @@ package recipes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -31,5 +32,8 @@ public class RecipesService {
             return false;
         }
     }
+
+    public List<Recipe> findRecipeByCategory(String category) { return recipeRepositories.findByCategoryLikeIgnoreCaseOrderByDateDesc(category);}
+    public List<Recipe> findRecipeByName(String name) { return recipeRepositories.findByNameContainingIgnoreCaseOrderByDateDesc(name);}
 
 }
